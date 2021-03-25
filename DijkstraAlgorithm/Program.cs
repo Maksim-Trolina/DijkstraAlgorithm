@@ -9,10 +9,16 @@ namespace DijkstraAlgorithm
             try
             {
                 var algo = new DijkstraAlgo();
+                
+                Console.Write("Enter path to file: ");
 
                 var pathToFile = Console.ReadLine();
+                
+                Console.Write("From the city: ");
 
                 var start = Console.ReadLine();
+                
+                Console.Write("To the city: ");
 
                 var end = Console.ReadLine();
 
